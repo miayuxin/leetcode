@@ -1,5 +1,6 @@
 class Solution:
     def countCharacters(self, words: [str], chars: str) -> int:
+        
         sum = 0
         
         for word in words:
