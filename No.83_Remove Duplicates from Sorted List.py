@@ -11,8 +11,6 @@ class Solution:
         if head == None:
             return head
 
-        dummy = ListNode(=1, head)
-
         curr = head
 
         while(curr != None and curr.next != None):
@@ -21,7 +19,7 @@ class Solution:
             else:
                 curr = curr.next
 
-        return dummy.next 
+        return head
 
 node_4 = ListNode(3)
 node_3 = ListNode(2, node_4)
