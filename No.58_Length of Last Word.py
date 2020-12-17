@@ -19,7 +19,6 @@ class Solution:
             
         return count
 
-
 s = Solution()
 str = 'Hello World'
 print(s.lengthOfLastWord(str))

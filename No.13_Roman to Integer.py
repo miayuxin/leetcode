@@ -33,3 +33,7 @@ class Solution:
             elif (ch == 'M'):
                 val += 1000
         return val 
+
+s = Solution()
+sampleString = 'MCMXCIV'
+print(s.romanToInt(sampleString))
